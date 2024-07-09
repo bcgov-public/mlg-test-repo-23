@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-title
+  title: Test title
+  description: Test description
+  annotations:
+    github.com/project-slug: bcgov-public/mlg-test-repo-23
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    developer.gov.bc.ca/source_template: default/transfer-repo
+    backstage.io/source-template: template:default/github-repo-transfer
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:bcgov-public/developer-experience
